@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+   /* comment: font-family: 'Montserrat', sans-serif; */  
+.container{
+    display: flex;
+}
+.left-side {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin-left: 12rem;
+}
+
+.left-side h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.left-side p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1.5rem;
+    text-align: center;
+}
+.loginregister
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.loginregister form{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+width: 200px;
+font-size: 25px;
+}
+.toggle button.selected {
+    border-bottom: 3px solid black;
+}
+.toggle
+{
+    width: 460px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+.toggle button {
+    flex: 50%;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+.right-side img{
+    padding: 3rem;
+    width: 450px;
+}
+
+.help p {
+    margin-top: 4.5rem;
+    margin-left: 35rem;
+    font-size: 15px;
+}
+.right-side h4 #pass{
+    border: 2px solid;
+    padding: 14px;
+    
+}
+.right-side h4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -40rem;
+    margin-left: 18rem;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 100px;
+    left: 45px;
+}
+.right-side h4 p
+{
+    margin: 0;
+}
+.left-side{
+    margin-left: -1rem;
+}
+.left-side label{
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-side input{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    width: 25rem;
+    height: 1.5rem;
+    border-radius: 6px;
+    border: 1.5px solid rgb(181, 182, 183);
+    background-color: #f6f6f9;
+    padding: .5rem;
+}
+button[type="submit"]
+{
+    cursor: pointer;
+    border: none;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    margin-top: 1rem;
+    width: 26rem;
+    color: white;
+    background-color: #8daeb2;
+}
+
+#signin{
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    margin-top: 1rem;
+    width: 26rem;
+    background-color: #ededf9;
+    border: none;
+}
+::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
